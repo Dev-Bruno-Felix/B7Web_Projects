@@ -1,0 +1,21 @@
+{
+  "name": "projeto-lista-de-contatos",
+  "version": "1.0.0",
+  "description": "API de Lista de Contatos:",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "node --import=tsx --watch ./src/server.ts"
+  },
+  "author": "Bruno Félix",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "helmet": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.11",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
